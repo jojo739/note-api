@@ -7,3 +7,4 @@ pytest-xdist
 pytest-xdist[psutil]
 redis
 uvicorn[standard]
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
